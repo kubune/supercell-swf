@@ -335,6 +335,14 @@ public class TextFieldOriginal extends DisplayObjectOriginal {
         return tag;
     }
 
+    public void setColor(int color) {
+        this.color = color;
+    }
+
+    public void setDefaultText(String text) {
+        this.defaultText = text;
+    }
+
     public static Builder builder() {
         return new Builder();
     }
